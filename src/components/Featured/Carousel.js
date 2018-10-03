@@ -11,7 +11,7 @@ const Carousel = (props) => {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 100
+    speed: 500
   }
 
   const height = window.innerHeight + "px";
