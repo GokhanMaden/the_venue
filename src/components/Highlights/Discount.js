@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import MyButton from "../Utils/Button";
 
 class Discount extends Component {
   constructor(props) {
@@ -43,6 +44,11 @@ class Discount extends Component {
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when 
                 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of 
                 letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <MyButton
+                  text="Purchase ticket"
+                  backgroung="#ffa800"
+                  color="ffffff"
+                  link="https://google.com" />
               </div>
             </Slide>
           </div>
